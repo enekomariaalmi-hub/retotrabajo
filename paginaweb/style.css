@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+/* CABECERA */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* MENÚ */
+.menu {
+    background-color: #2563eb;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    background-color: #3b82f6;
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #1d4ed8;
+}
+
