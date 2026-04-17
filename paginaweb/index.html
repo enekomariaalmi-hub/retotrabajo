@@ -1,44 +1,72 @@
 <!DOCTYPE html>
-<lang="es">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>RobotReto</title>
+    <title>Reto Robots</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <h1>Reto Robots</h1>
+    <!-- BARRA SUPERIOR -->
+    <header class="barra-superior">
+        <h1 class="logo">RobotAlmi</h1>
 
-    <!-- Menú -->
-    <div class="menu">
-        <a href="#inicio">Inicio</a>
-        <a href="#concurso">Concurso</a>
-        <a href="#robots">Robots</a>
-    </div>
+        <nav class="navegacion">
+            <a href="index.html#inicio">Inicio</a>
+            <a href="index.html#concurso">Concurso</a>
+            <a href="index.html#robots">Robots</a>
+        </nav>
 
-    <!-- Secciones -->
+        <div class="idiomas">
+            <a href="index.html">ES</a>
+            <a href="index_eu.html">EU</a>
+            <a href="index_en.html">EN</a>
+        </div>
+    </header>
 
-    <h2 id="inicio">Inicio</h2>
-    <p>
-        RobotAlmi es una empresa que participa en un concurso de robots.
-        Este grupo lo conformamos Eneko Maria, Ekain Argul y Nikita.
-    </p>
+    <!-- SECCIÓN PRINCIPAL -->
+    <section class="seccion-principal">
+        <div class="texto-principal">
+            <h2>Descubre el reto de robótica</h2>
+            <p>Innovación, tecnología y trabajo en equipo</p>
+        </div>
+    </section>
 
-    <h2 id="concurso">Concurso</h2>
-    <p>El concurso incluye varias pruebas:</p>
+    <!-- CONTENIDO -->
+    <main class="contenido">
 
-    <ol>
-        <li>Peleas de Robots (otto)</li>
-        <li>Circuito Robots (bq)</li>
-        <li>Siguelineas (bq)</li>
-        <li>Carrera (araña)</li>
-    </ol>
+        <section id="inicio">
+            <h3>Inicio</h3>
+            <p>
+                RobotAlmi es una empresa que participa en un concurso de robots.
+                El grupo lo formamos Eneko Maria, Ekain Argul y Nikita.
+            </p>
+        </section>
 
-    <h2 id="robots">Robots</h2>
-    <p>
-        Utilizamos estos 3 robots: Robot araña, OTTO Ninja y BQ.
-    </p>
+        <section id="concurso">
+            <h3>Concurso</h3>
+            <p>El concurso incluye varias pruebas:</p>
+            <ol>
+                <li>Peleas de Robots (otto)</li>
+                <li>Circuito Robots (bq)</li>
+                <li>Siguelíneas (bq)</li>
+                <li>Carrera (araña)</li>
+            </ol>
+        </section>
+
+        <section id="robots">
+            <h3>Robots</h3>
+            <p>
+                Utilizamos robots como OTTO Ninja, BQ y robot araña.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="pie-pagina">
+        <p>© 2026 RobotAlmi · Proyecto educativo SMR</p>
+    </footer>
 
 </body>
+</html>

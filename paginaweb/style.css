@@ -1,34 +1,84 @@
+/* GENERAL */
 body {
-    font-family: Arial;
     margin: 0;
+    font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
 
-/* CABECERA */
-header {
-    background-color: #1e3a8a;
-    color: white;
-    text-align: center;
-    padding: 20px;
+/* BARRA SUPERIOR */
+.barra-superior {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
 }
 
-/* MENÚ */
-.menu {
-    background-color: #2563eb;
-    text-align: center;
-    padding: 10px;
+.logo {
+    margin: 0;
+    font-size: 22px;
 }
 
-.menu a {
-    color: white;
+.navegacion a {
+    margin-left: 20px;
     text-decoration: none;
-    background-color: #3b82f6;
-    padding: 10px 15px;
-    margin: 5px;
-    display: inline-block;
+    color: black;
 }
 
-.menu a:hover {
-    background-color: #1d4ed8;
+.navegacion a:hover {
+    text-decoration: underline;
 }
 
+.idiomas a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.idiomas a:hover {
+    text-decoration: underline;
+}
+
+/* SECCIÓN PRINCIPAL (HERO) */
+.seccion-principal {
+    height: 380px;
+    background: linear-gradient(to right, #041c2c, #063b5d);
+    display: flex;
+    align-items: center;
+}
+
+.texto-principal {
+    color: white;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.texto-principal h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* CONTENIDO */
+.contenido {
+    max-width: 800px;
+    margin: -60px auto 40px auto;
+    padding: 30px;
+    background-color: white;
+}
+
+.contenido section {
+    margin-bottom: 30px;
+}
+
+.contenido h3 {
+    margin-bottom: 10px;
+}
+
+.pie-pagina {
+    background-color: #041c2c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
