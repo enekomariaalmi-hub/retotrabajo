@@ -41,7 +41,7 @@ body {
     text-decoration: underline;
 }
 
-/* SECCIÓN PRINCIPAL (HERO) */
+/* SECCIÓN PRINCIPAL */
 .seccion-principal {
     height: 380px;
     background: linear-gradient(to right, #041c2c, #063b5d);
